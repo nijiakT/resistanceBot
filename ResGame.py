@@ -51,8 +51,6 @@ class ResGame:
     def generateMission(self):
         round = self.missionP + self.missionF
         missionSet = ResGame.missions[len(self.players) - 5]
-        #delete this after
-        #missionSet=ResGame.missions[0]
         self.teamLimit = missionSet[round]
         failsReq = '1 sabotage and this mission fails\.'
         if round == 3 and len(self.players) >= 7:
