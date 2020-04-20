@@ -34,9 +34,6 @@ class ResGame:
             self.splitTeams(3)
         elif len(self.players) >= 5:
             self.splitTeams(2)
-        #else:
-            #delete this after
-            #self.splitTeams(1)
 
     def splitTeams(self, spiesNum):
         #move the required number of spies from resistance to spies
